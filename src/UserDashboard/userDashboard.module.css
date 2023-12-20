@@ -1,0 +1,119 @@
+.wrapper {
+    text-align: center;
+}
+
+.wrapper h1 {
+    margin-bottom: 0;
+}
+
+.profile {
+    background-color: rgba(0, 0, 0, 0.893);
+    display: grid;
+    grid-template:
+        "welcome profile" 3.5rem
+        /80% 1fr;
+    height: 3.75rem;
+    border-radius: 10%;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.profile h3 {
+    margin: 0;
+    margin-top: 1.1rem;
+    grid-area: welcome;
+    font-size: 1.1rem;
+    margin-left: 5%;
+}
+
+.profile img {
+    grid-area: profile;
+    margin-top: 0.35rem;
+    border: 1px solid rgba(255, 255, 255, 0.636);
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+
+.profileButton {
+    grid-area: welcome;
+    margin-top: 1rem;
+    margin-left: 35%;
+    height: 2rem;
+    width: 60%;
+}
+
+/* 550px */
+@media screen and (min-width: 550px) {
+    .profile h3 {
+        margin-left: 15%;
+    }
+
+    .profile img {
+        margin-left: 2rem;
+    }
+}
+
+/* 700px */
+@media screen and (min-width: 700px) {
+    .profile h3 {
+        font-size: 1.5rem;
+        margin-top: 0.75rem;
+        margin-left: 15%;
+    }
+
+    .profile img {
+        margin-left: 3rem;
+    }
+
+    .profileButton {
+        height: 2.5rem;
+        margin-top: 0.75rem;
+        font-size: 1.25rem;;
+    }
+}
+
+/* 800px */
+@media screen and (min-width: 800px) {
+    .profile {
+        height: 4.5rem;
+    }
+
+    .profile h3 {
+        font-size: 1.75rem;
+        margin-top: 1rem;
+        margin-left: 15%;
+    }
+
+    .profile img {
+        height: 110%;
+    }
+    .profileButton {
+        margin-top: 1.05rem;
+    }
+}
+
+/* 1100px */
+@media screen and (min-width: 1100px) {
+    .wrapper h1 {
+        font-size: 2.25rem;
+        margin-bottom: 0.5rem;
+        margin-top: 0.75rem;
+    }
+
+    .profile {
+        height: 5rem;
+    }
+
+    .profile h3 {
+        font-size: 1.95rem;
+        margin-left: 25%;
+        margin-top: 1.25rem;
+    }
+
+    .profile img {
+        height: 120%;
+        margin-left: 4.5rem;
+        margin-top: 0.45rem;
+    }
+}

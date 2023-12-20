@@ -1,0 +1,152 @@
+[
+    {
+        "name": "Roses",
+        "artist": "The Band CAMINO",
+        "album": "The Band CAMINO",
+        "id": 1
+    },
+    {
+        "name": "Range Rover",
+        "artist": "Ben Rector",
+        "album": "Range Rover",
+        "id": 2
+    },
+    {
+        "name": "Holy Ghost",
+        "artist": "Chris Renzema",
+        "album": "Manna Pt.1",
+        "id": 3
+    },
+    {
+        "name": "P.I.T.S.",
+        "artist": "The Classic Crime",
+        "album": "Patterns in the Static",
+        "id": 4
+    },
+    {
+        "name": "You & I",
+        "artist": "Colony House",
+        "album": "Only the Lonely",
+        "id": 5
+    },
+    {
+        "name": "The Proof of Your Love",
+        "artist": "for KING and COUNTRY",
+        "album": "Crave",
+        "id": 6
+    },
+    {
+        "name": "Colors Run",
+        "artist": "House of Heroes",
+        "album": "Colors",
+        "id": 7
+    },
+    {
+        "name": "Resurrect Me",
+        "artist": "Jon Foreman",
+        "album": "Limbs and Branches",
+        "id": 8
+    },
+    {
+        "name": "Why Did You Run?",
+        "artist": "Judah & the Lion",
+        "album": "Pep Talks",
+        "id": 9
+    },
+    {
+        "name": "History Channel",
+        "artist": "The National Parks",
+        "album": "8th Wonder",
+        "id": 10
+    },
+    {
+        "name": "Talk of the Town",
+        "artist": "NEEDTOBREATHE",
+        "album": "Talk of the Town",
+        "id": 11
+    },
+    {
+        "name": "Beloved",
+        "artist": "Nick Beaken",
+        "album": "Beloved",
+        "id": 12
+    },
+    {
+        "name": "Movements",
+        "artist": "Rend Collective",
+        "album": "Organic Family Hymnal",
+        "id": 13
+    },
+    {
+        "name": "Float",
+        "artist": "Switchfoot",
+        "album": "Where the Light Shines Through",
+        "id": 14
+    },
+    {
+        "name": "The Mountain Song",
+        "artist": "Tophouse",
+        "album": "The Mountain Song",
+        "id": 15
+    },
+    {
+        "name": "We Don't Believe What's on TV",
+        "artist": "Twenty One Pilots",
+        "album": "Blurryface",
+        "id": 16
+    },
+    {
+        "name": "Talk All Night for Nothing - Live",
+        "artist": "Tyson Motsenbocker",
+        "album": "Talk All Night for Nothing (Live)",
+        "id": 17
+    },
+    {
+        "name": "man made weather (work tape)",
+        "artist": "Wilder Woods",
+        "album": "man made weather (work tape)",
+        "id": 18
+    },
+    {
+        "name": "People",
+        "artist": "Jervis Campbell",
+        "album": "Hopeful Hearts Club",
+        "id": 19
+    },
+    {
+        "name": "Collapsible Lung",
+        "artist": "Relient K",
+        "album": "Collapsible Lung",
+        "id": 20
+    },
+    {
+        "name": "I Need You",
+        "artist": "Gable Price and Friends",
+        "album": "If I'm Being Honest...",
+        "id": 21
+    },
+    {
+        "name": "Lift This House",
+        "artist": "BLKBRD",
+        "album": "Lift THis House",
+        "id": 22
+    },
+    {
+        "name": "Lost Boys",
+        "artist": "Mike Mains & The Branches",
+        "album": "Memory Unfixed",
+        "id": 23
+    },
+    {
+        "name": "The Road",
+        "artist": "Vocal Few",
+        "album": "Tall Trees EP",
+        "id": 24
+    },
+    {
+        "name": "Breakfast at Tiffany's",
+        "artist": "Deep Blue Something",
+        "album": "11th Song",
+        "id": 25
+    }
+]

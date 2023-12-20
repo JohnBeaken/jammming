@@ -1,0 +1,22 @@
+.playlist {
+    width: 98%;
+    margin: auto;
+    background-image: url('../images/pexels-wallace-chuck-3587477.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 2rem;
+    min-height: 425px;
+    max-height: 1000px;
+    border-radius: 5%;
+}
+
+.buttonWrapper {
+    min-height: 95px;
+    width: 80%;
+    margin: auto;
+}
+
+.add {
+    width: 100%;
+    font-size: 1.5rem;
+}

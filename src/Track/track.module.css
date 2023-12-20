@@ -1,0 +1,92 @@
+.trackWrapper {
+    list-style-type: none;
+    text-align: center;
+    width: 45%;
+    min-height: 12rem;
+    max-height: 12rem;
+    margin: 0.25rem;
+}
+
+.btnTrack {
+    background-color: rgba(0, 0, 0, 0.455);
+    box-shadow: 7px 4px 4px #1db9546f;
+    min-height: 12rem;
+    max-height: 12rem;
+    display: grid;
+    grid-template:
+        "song" 1fr
+        "artist" 3rem
+        "button" 3rem;
+}
+
+.track {
+    background-color: rgba(0, 0, 0, 0.455);
+    box-shadow: 7px 4px 4px #1db9546f;
+    min-height: 12rem;
+    max-height: 12rem;
+    display: grid;
+    grid-template:
+        "song" 1fr
+        "artist" 1rem
+        "album" 1fr
+        "button2" 1fr;
+}
+
+.song {
+    grid-area: song;
+    font-size:1rem;
+    margin: auto;
+    color: white;
+    padding: 5px;
+}
+
+.addSongBtn {
+    grid-area: button;
+    background-color: black;
+    width: 2rem;
+    height: 2rem;
+    margin: auto;
+    cursor: pointer;
+}
+
+.removeSongBtn {
+    grid-area: button2;
+    background-color: black;
+    width: 2rem;
+    height: 2rem;
+    margin: auto;
+    cursor: pointer;
+}
+
+.artist {
+    grid-area: artist;
+    font-size: 0.75rem;
+    margin: auto;
+}
+
+.dash {
+    display: none;
+}
+
+.album {
+    grid-area: album;
+    font-size: 0.75rem;
+}
+
+/* 750px */
+@media screen and (min-width: 750px) {
+    .wrapper {
+        width: 25%;
+    }   
+}
+
+/* 1100px */
+@media screen and (min-width: 1100px) {
+    .wrapper {
+        width: 45%;
+    }
+    .track, .btnTrack {
+        background-color: rgba(0, 0, 0, 0.633);
+        box-shadow: none;
+    }
+}
