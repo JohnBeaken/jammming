@@ -2,7 +2,7 @@ import {Buffer} from 'buffer';
 
 const clientID = "2b3f218137e947c097c3c48568c9c238";
 const clientSecret = "9df8d0ff9409447fa3cb43414ca46a14";
-const redirectUri = "http://localhost:3000/";
+const redirectUri = "https://spotifyplaylistbuilder.netlify.app/";
 const buffer = Buffer.from(clientID + ":" + clientSecret).toString('base64');
 
 const spotify = {
